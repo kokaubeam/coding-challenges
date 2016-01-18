@@ -10,16 +10,20 @@ You can assume that we won't buy when we don't have enough cash, and we won't se
 
 ## Example
 
-STDIN:
+**STDIN:**
 
-    225
-    105 buy
-    102 hold
-    101 hold
-    106 sell
-    102 buy
-    107 sell
+```
+225
+105 buy
+102 hold
+101 hold
+106 sell
+102 buy
+107 sell
+```
 
-STDOUT:
+**STDOUT:**
 
-    231
+```
+231
+```

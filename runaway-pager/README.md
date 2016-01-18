@@ -4,7 +4,6 @@ You and your friends have traveled back in time to the 1980s and the only way yo
 
 She suggests using the following scheme:
 
-
 - Only the letters A-Z are used. There are no spaces.
 - If a letter appears just once, encode the letter as-is, so `CAT` becomes `CAT`.
 - If a letter is repeated, encode the letter as the letter followed by the number of times it repeats, so `CAAAATTT` becomes `CA4T3`.
@@ -13,16 +12,20 @@ Your program must accept lines of text and output for each the same line of text
 
 ## Example
 
-STDIN:
+**STDIN:**
 
-    AABZZZZQQJ
-    SHAZBOT
-    BQQRRRRRRZ
-    BBBQTTTTTTF
+```
+AABZZZZQQJ
+SHAZBOT
+BQQRRRRRRZ
+BBBQTTTTTTF
+```
 
-STDOUT:
+**STDOUT:**
 
-    A2BZ4Q2J
-    SHAZBOT
-    BQ2R6Z
-    B3QT6F
+```
+A2BZ4Q2J
+SHAZBOT
+BQ2R6Z
+B3QT6F
+```

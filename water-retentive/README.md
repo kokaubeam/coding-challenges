@@ -6,36 +6,44 @@ The sample input consists of N integers which represent the given surface config
 
 ## Example
 
-STDIN:
+**STDIN:**
 
-    2 0 0 3 0 4
-    This can be visualized as
+```
+2 0 0 3 0 4
+```
 
+This can be visualized as
 
-              |
-          |   |
-    |     |   |
-    | _ _ | _ |
-    This configuration can store 7 units of water.
+          |
+      |   |
+|     |   |
+| _ _ | _ |
 
-STDOUT:
+This configuration can store 7 units of water.
 
-    7
+**STDOUT:**
+
+```
+7
+```
 
 ## Example
 
-STDIN:
+**STDIN:**
 
+```
+0 4 4 2 3
+```
 
-    0 4 4 2 3
-    This represents the following shape:
+This represents the following shape:
 
+  | |  
+  | |   |
+  | | | |
+_ | | | |
 
-      | |  
-      | |   |
-      | | | |
-    _ | | | |
+**STDOUT:**
 
-STDOUT:
-
-    1
+```
+1
+```
